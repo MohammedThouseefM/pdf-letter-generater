@@ -1,4 +1,4 @@
-:root {
+        :root {
             --primary-color: #3498db;
             --secondary-color: #2980b9;
             --light-color: #f8f9fa;
@@ -152,6 +152,20 @@
 
         .signature {
             margin-top: 40px;
+        }
+
+        .address {
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+
+        .address-label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .hidden {
+            display: none;
         }
 
         @media (max-width: 768px) {
